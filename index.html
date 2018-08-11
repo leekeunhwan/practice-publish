@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>퍼블리싱 연습하기</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./animate.css">
+</head>
+
+<body data-spy="scroll" data-target="#sidebarScroll" data-offset="20">
+    <div class="wrapper">
+        <section class="section section--main-header">
+            <header class="nav-header">
+                <div class="content">
+                    <div class="header__handler">
+                        <div class="sidebar">
+                            <span class="hamburger">
+                                <img class="hambtn" src="https://www.blocko.io/assets/img/hamburgerBtn.png" />
+                            </span>
+                            <ul class="sidebar__menu" style="right: -200px;">
+                                <li class="sidebar__menu__item">
+                                    <a href="https://www.blocko.io/platform.html">Platform</a>
+                                </li>
+                                <li class="sidebar__menu__item">
+                                    <a href="https://www.blocko.io/usecase.html">Use Case</a>
+                                </li>
+                                <li class="sidebar__menu__item">
+                                    <a href="https://www.blocko.io/developers.html">Developers</a>
+                                </li>
+                                <li class="sidebar__menu__item">
+                                    <a href="https://www.blocko.io/partners.html">Partners</a>
+                                </li>
+                                <li class="sidebar__menu__item">
+                                    <a href="https://www.blocko.io/contactus.html">Contact Us</a>
+                                </li>
+                                <div class="header__references_purchase header-user-image" onclick="toggleMenu();">
+                                    "English"
+                                    <span class="down-arrow-btn header-select-language"></span>
+                                </div>
+                            </ul>
+                        </div>
+                        <a href="https://www.blocko.io/index.html">
+                            <img id="main-logo" src="https://www.blocko.io/assets/img/blocko-logo-white.png" alt="블로코" onmouseover="this.src='https://www.blocko.io/assets/img/blocko-logo-hover.png'"
+                                onmouseout="this.src='https://www.blocko.io/assets/img/blocko-logo-white.png'">
+                        </a>
+                    </div>
+                    <div class="header__references">
+                        <a href="https://www.blocko.io/platform.html" class="header__references_support">Platform</a>
+                        <a href="https://www.blocko.io/usecase.html" class="header__references_support">Use Case</a>
+                        <a href="https://www.blocko.io/developers.html" class="header__references_support">Developers</a>
+                        <a href="https://www.blocko.io/partners.html" class="header__references_support">Partners</a>
+                        <a href="https://www.blocko.io/contactus.html" class="header__references_support">Contact Us</a>
+                        <div class="header__references_purchase header-user-image" onclick="toggleMenu();">
+                            English
+                            <span class="down-arrow-btn header-select-language"></span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+                <div class="intro">
+                    <div class="intro-block">
+                        <h2 class="intro__title">
+                            <span>Coinstack,</span>
+                            <br> the blockchain
+                            <br> SOLUTION FOR
+                            <br> ENTERPRISE.
+                        </h2>
+                        <div class="intro__sub__title">
+                            Complete your digital innovation
+                            <br> with BLOCKO's COINSTACK.
+                        </div>
+                    </div>
+                    <a href="console.html" target="_blank">
+                        <div class="intro-popup">
+                            <div class="popup-logo">Coinstack Playground</div>
+                            <div class="play-btn">
+                                "LET'S PLAY"
+                                <span class="next-play">&nbsp;</span>
+                            </div>
+                            <div class="play-arrow">
+                                <img src="https://www.blocko.io/assets/img/playground-arrow-btn.svg">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="main-change-btn">
+                    <img src="https://www.blocko.io/assets/img/main-scroll-down-arrow-default.svg" onmouseover="this.src='https://www.blocko.io/assets/img/main-scroll-down-arrow-hover.svg'"
+                        onmouseout="this.src='https://www.blocko.io/assets/img/main-scroll-down-arrow-default.svg'">
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

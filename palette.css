@@ -1,0 +1,96 @@
+body {
+    background-color: rgba(0, 0, 255, 0.25);
+}
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+/* nav */
+
+header #menuList a:hover {
+    color: salmon;
+}
+
+header {
+    width: 1000px;
+    margin: auto;
+    height: 60px;
+    position: relative;
+}
+
+header #logo {
+    height: 60px;
+    width: 123px;
+    margin: auto;
+    cursor: pointer;
+    float: left;
+}
+
+header #logo img {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 15px;
+    margin: auto;
+}
+
+header #menuList {
+    float: right;
+    margin: 1.5% 0 0 0;
+    padding: 0;
+    width: 74%;
+}
+
+header #menuList .main-menu-item {
+    font-size: 13px;
+    list-style: none;
+    float: left;
+    width: 80px;
+    height: 29px;
+    margin-left: 28px;
+    letter-spacing: 1px;
+}
+
+header #menuList a,
+header #menuList div {
+    color: white;
+    /* nav에 a태그를 쓰는 경우에는 block이 아닐경우 텍스트를 클릭해야
+       동작하기에 에어리어를 클릭해서 동작하게 하려면 block으로 설정해야한다. */
+    text-align: center;
+    /* line-height를 상자높이만큼 주면 상하의 정중앙으로 위치한다. */
+    line-height: 29px;
+    display: block;
+    height: inherit;
+}
+
+.select-language {
+    border: 1px solid white;
+    width: 150px;
+}
+
+.down-arrow-btn {
+    background: url('https://www.blocko.io/assets/img/down-arrow-btn.svg') no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    position: relative;
+    right: -25px;
+    width: 12px;
+    height: 6px;
+}
+
+/* header */
+
+.intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 240px;
+}
