@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>퍼블리싱 연습하기</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./animate.css">
+    <link rel="stylesheet" href="./bxSlider.css">
+
+
+
 </head>
 
 <body data-spy="scroll" data-target="#sidebarScroll" data-offset="20">
@@ -92,13 +99,663 @@
                     <img src="https://www.blocko.io/assets/img/main-scroll-down-arrow-default.svg" onmouseover="this.src='https://www.blocko.io/assets/img/main-scroll-down-arrow-hover.svg'"
                         onmouseout="this.src='https://www.blocko.io/assets/img/main-scroll-down-arrow-default.svg'">
                 </div>
-
+            </div>
+        </section>
+        <section class="section section--main-partners">
+            <div class="content regular">
+                <div class="slider">
+                    <div class="partners-logo-block">
+                        <div class="partners-logo-list">
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner2_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner2.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner2_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner3_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner3.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner3_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner4_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner4.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner4_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner5_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner5.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner5_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner6_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner6.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner6_b.png';" alt=" ">
+                            </div>
+                        </div>
+                        <div class="partners-logo-list">
+                            <!--<div class="partners-logo"><img src="https://www.blocko.io/assets/img/partners/partner7_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner7.png';" onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner7_b.png';" alt=" "></div>-->
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner8_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner8.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner8_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner9_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner9.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner9_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner10_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner10.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner10_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner11_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner11.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner11_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner12_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner12.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner12_b.png';" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partners-logo-block">
+                        <div class="partners-logo-list">
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner13_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner13.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner13_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner14_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner14.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner14_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner15_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner15.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner15_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner16_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner16.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner16_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner17_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner17.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner17_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner18_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner18.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner18_b.png';" alt=" ">
+                            </div>
+                        </div>
+                        <div class="=partners-logo-list">
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner19_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner19.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner19_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner20_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner20.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner20_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner21_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner21.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner21_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner22_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner22.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner22_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner23_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner23.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner23_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner24_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner24.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner24_b.png';" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partners-logo-block">
+                        <div class="partners-logo-list">
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner25_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner25.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner25_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner26_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner26.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner26_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner27_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner27.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner27_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner28_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner28.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner28_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner29_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner29.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner29_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner30_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner30.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner30_b.png';" alt=" ">
+                            </div>
+                        </div>
+                        <div class="=partners-logo-list">
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner31_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner31.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner31_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner32_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner32.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner32_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner33_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner33.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner33_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner34_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner34.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner34_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner35_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner35.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner35_b.png';" alt=" ">
+                            </div>
+                            <div class="partners-logo">
+                                <img src="https://www.blocko.io/assets/img/partners/partner36_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner36.png';"
+                                    onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner36_b.png';" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content regular mobile-regular">
+                    <div class="mobile-slider">
+                        <div class="partners-logo-block">
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner1_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner1.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner1_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner2_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner2.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner2_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner3_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner3.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner3_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner4_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner4.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner4_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner5_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner5.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner5_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner6_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner6.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner6_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner7_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner7.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner7_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner8_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner8.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner8_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner9_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner9.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner9_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner10_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner10.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner10_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner11_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner11.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner11_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner12_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner12.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner12_b.png';" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="partners-logo-block">
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner13_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner13.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner13_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner14_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner14.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner14_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner15_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner15.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner15_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner16_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner16.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner16_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner17_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner17.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner17_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner18_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner18.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner18_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner19_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner19.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner19_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner20_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner20.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner20_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner21_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner21.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner21_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner22_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner22.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner22_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner23_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner23.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner23_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner24_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner24.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner24_b.png';" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="partners-logo-block">
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner25_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner25.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner25_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner26_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner26.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner26_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner27_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner27.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner27_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner28_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner28.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner28_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner29_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner29.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner29_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner30_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner30.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner30_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="=partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner31_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner31.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner31_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner32_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner32.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner32_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="=partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner33_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner33.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner33_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner34_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner34.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner34_b.png';" alt=" ">
+                                </div>
+                            </div>
+                            <div class="=partners-logo-list col-xs-12 no-padding">
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner35_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner35.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner35_b.png';" alt=" ">
+                                </div>
+                                <div class="partners-logo">
+                                    <img src="https://www.blocko.io/assets/img/partners/partner36_b.png" onmouseover="this.src='https://www.blocko.io/assets/img/partners/partner36.png';"
+                                        onmouseout="this.src='https://www.blocko.io/assets/img/partners/partner36_b.png';" alt=" ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
 
 
-    <script src="index.js"></script>
+    <script>
+        // Bind as an event handler
+        $(document).ready(function () {
+            $(".slider").bxSlider({
+                auto: true,
+                speed: 1500,
+                infiniteLoop: true,
+                autoHover: true
+            });
+            $(".mobile-slider").bxSlider({
+                auto: true,
+                speed: 1500,
+                infiniteLoop: true
+            });
+            $(".sum-slider").bxSlider({
+                auto: true,
+                speed: 1000,
+                //slideWidth : 1000,
+                infiniteLoop: true
+            });
+
+            //$(".regular").slick();
+        });
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+
+            console.log(scroll);
+            if (document.body.clientWidth < 550) {
+                if (scroll > 600) {
+                    $(".nav-header").addClass("sub-header");
+                    $("#main-logo").attr("src", "https://www.blocko.io/assets/img/blocko-logo-black.png");
+                    $(".hambtn").attr("src", "https://www.blocko.io/assets/img/hamburgerBtnBlack.png");
+                    $(".select-language").css("color", "black");
+                } else {
+                    $(".nav-header").removeClass("sub-header");
+                    $("#main-logo").attr("src", "https://www.blocko.io/assets/img/blocko-logo-white.png");
+                    $(".hambtn").attr("src", "https://www.blocko.io/assets/img/hamburgerBtn.png");
+                    $(".select-language").css("color", "white");
+                }
+            } else {
+                if (scroll > 750) {
+                    $(".nav-header").addClass("sub-header");
+                    $(".my-popup").removeClass("main-my");
+                    $(".my-popup").css("background-color", "white");
+                    $("#main-logo").attr("src", "https://www.blocko.io/assets/img/blocko-logo-black.png");
+                    $("#main-logo").attr(
+                        "onmouseover",
+                        "this.src='https://www.blocko.io/assets/img/blocko-logo-black-hover.png'"
+                    );
+                    $("#main-logo").attr(
+                        "onmouseout",
+                        "this.src='https://www.blocko.io/assets/img/blocko-logo-black.png'"
+                    );
+                    $(".select-language").css("color", "black");
+                } else {
+                    $(".nav-header").removeClass("sub-header");
+                    $(".my-popup").addClass("main-my");
+                    $(".my-popup").css("background-color", "transparent");
+                    $("#main-logo").attr("src", "https://www.blocko.io/assets/img/blocko-logo-white.png");
+                    $("#main-logo").attr(
+                        "onmouseover",
+                        "this.src='https://www.blocko.io/assets/img/blocko-logo-hover.png'"
+                    );
+                    $("#main-logo").attr(
+                        "onmouseout",
+                        "this.src='https://www.blocko.io/assets/img/blocko-logo-white.png'"
+                    );
+                    $(".select-language").css("color", "white");
+                }
+            }
+        });
+
+        // script2
+
+        function onClickLang(language) {
+            //toggleMenu();
+            /*
+			$.ajax('/api/language/set/' + language, {
+				ignoreLoading: true,
+				success: function() {
+					location.reload();
+				}
+			});
+			*/
+            alert("It doesn't support now yet.");
+        }
+
+        $(".select-language").change(function () {
+            language = $(this).val();
+
+            /*
+			$.ajax('/api/language/set/' + language, {
+				ignoreLoading: true,
+				success: function() {
+					location.reload();
+				}
+			});
+			*/
+            alert("It doesn't support now yet.");
+        });
+
+        var $animation_elements = $(".animation-element");
+        var $window = $(window);
+
+        function check_if_in_view() {
+            var window_height = $window.height();
+            var window_top_position = $window.scrollTop();
+            var window_bottom_position = window_top_position + window_height;
+
+            $.each($animation_elements, function () {
+                var $element = $(this);
+                var element_height = $element.outerHeight();
+                var element_top_position = $element.offset().top;
+                var element_bottom_position = element_top_position + element_height;
+
+                //check to see if this current container is within viewport
+                if (
+                    element_bottom_position >= window_top_position &&
+                    element_top_position <= window_bottom_position
+                ) {
+                    $element.addClass("in-view");
+                } else {
+                    $element.removeClass("in-view");
+                }
+            });
+        }
+
+        $window.on("scroll resize", check_if_in_view);
+        $window.trigger("scroll");
+
+        function toggleMenu() {
+            $(".my-popup").slideToggle();
+        }
+
+        /* 언어 선택 영역 로직 */
+
+        $(document).ready(function () {
+            var $body = $("body");
+            var isActive = $(".hamburger").hasClass("toggler_active");
+            var $sidebar = $body.find(".sidebar__menu");
+            var takePosition = isActive ? "-200px" : "0px";
+            var $window = $(window);
+            var timeout = false;
+            var delay = 250;
+            var windowsize;
+
+            /*function scrollTo(target) {
+		if ($(target).length) {
+			$('html, body').stop().animate({
+				scrollTop: $(target).offset().top}, 500);
+		}
+	}*/
+
+            $(".hamburger").click(function () {
+                $(this).addClass("toggler_active");
+                $(".sidebar__menu").animate({
+                    right: "0"
+                }, 200);
+                $(".wrapper").addClass("screen");
+                $(".cover-layout")
+                    .css({
+                        visibility: "visible"
+                    })
+                    .animate({
+                        opacity: "1"
+                    }, 100);
+            });
+
+            $(".wrapper").click(function () {
+                $(".sidebar__menu").removeClass("active");
+                $(this).removeClass("screen");
+            });
+
+            $(document).mouseup(function (e) {
+                var $sidebar = $(".sidebar__menu");
+
+                if (!$sidebar.is(e.target) && $sidebar.has(e.target).length === 0) {
+                    $sidebar.animate({
+                        right: "-200"
+                    }, 200);
+                    $(".hamburger").removeClass("toggler_active");
+                    $(".cover-layout")
+                        .css({
+                            visibility: "hidden"
+                        })
+                        .animate({
+                            opacity: "0"
+                        }, 100);
+                }
+            });
+
+            /* tabs switcher in faq page */
+            $(".contents__sidebar_list > li > a")
+                .click(function (event) {
+                    event.stopPropagation();
+                    event.preventDefault();
+                    $(".contents__sidebar_list > li > a").removeClass("active");
+                    $(this).tab("show");
+                })
+                .first()
+                .trigger("click");
+
+            function checkWidth() {
+                windowsize = $window.width();
+
+                if (windowsize < 1200 && windowsize > 768) {
+                    $(".contents__sidebar").css("padding-top", "70px");
+                } else if (windowsize < 768) {
+                    $(".contents__sidebar").removeClass("fixedsticky");
+                    $(".contents__sidebar").css("padding-top", "0");
+                } else {
+                    $(".contents__sidebar").addClass("fixedsticky");
+                }
+            }
+
+            // window.resize event listener
+            window.addEventListener("resize", function () {
+                clearTimeout(timeout);
+                timeout = setTimeout(checkWidth, delay);
+            });
+
+            // Execute on load
+            checkWidth();
+
+            $(".sidebar__navigation_icon").click(function () {
+                $(".cover-layout")
+                    .css({
+                        visibility: "visible"
+                    })
+                    .animate({
+                        opacity: "1"
+                    }, 10);
+                $(".sidebar__navigation__list").css({
+                    right: "0"
+                });
+            });
+
+            $(".sidebar__navigation__list").click(function () {
+                $(this).css({
+                    right: "-250px"
+                });
+                $(".cover-layout")
+                    .css({
+                        visibility: "hidden"
+                    })
+                    .animate({
+                        opacity: "0"
+                    }, 50);
+            });
+
+            $(".sidebar__navigation__list .contents__sidebar_list_inset a").click(
+                function () {
+                    $(".sidebar__navigation__list").css({
+                        right: "-250px"
+                    });
+                    $(".cover-layout")
+                        .css({
+                            visibility: "hidden"
+                        })
+                        .animate({
+                            opacity: "0"
+                        }, 50);
+                }
+            );
+
+            $(".cover-layout").click(function () {
+                $(this)
+                    .css({
+                        visibility: "hidden"
+                    })
+                    .animate({
+                        opacity: "0"
+                    }, 450);
+                $(".sidebar__navigation__list").css({
+                    right: "-250px"
+                });
+            });
+
+            /* smooth scroll */
+            $("#sidebarScroll")
+                .find(".contents__sidebar_list_inset li a[href^='#']")
+                .on("click", function (e) {
+                    e.preventDefault();
+
+                    // store hash
+                    var hash = this.hash;
+
+                    // animate
+                    $("html, body").animate({
+                            scrollTop: $(hash).offset().top - 10
+                        },
+                        500,
+                        function () {
+                            // when done, add hash to url
+                            // (default click behaviour)
+                            // window.location.hash = hash;
+                        }
+                    );
+                });
+        });
+    </script>
 </body>
 
 </html>
